@@ -1,0 +1,6 @@
+logogenerator:
+  image: diceone/logogen
+  stdin_open: true
+  restart: always
+  ports:
+    - "8020:80/tcp"
